@@ -51,6 +51,6 @@ jobs:
     permissions:
       contents: read
     steps:
+    - uses: actions/checkout@v4
     - name: Docker verify script
       run: '${{ github.workspace }}/verify-image.sh'
-      
