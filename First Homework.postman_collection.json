@@ -32,7 +32,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/application/test",
+							"raw": "http://localhost:8080/cubix/test",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -75,7 +75,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/application/test?message=custom message",
+							"raw": "http://localhost:8080/cubix/test?message=custom message",
 							"protocol": "http",
 							"host": [
 								"localhost"
